@@ -27,7 +27,7 @@ h1{
      text-align: center; /* alinea el texto al centro */
 }
 
-.testimonial-content{
+.principal-content{
      min-height: 600px; /* altura mínima del contenedor */
      display: flex; /* define como se van a ubicar los elementos dentro del contenedor */
      flex-wrap: wrap; /* si un elemento toma todo el ancho del contenedor, los otros elementos se ubican debajo de este. */

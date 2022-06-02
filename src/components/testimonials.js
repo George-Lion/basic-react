@@ -10,7 +10,7 @@ export const Testimonials = () => {
         alt="Emma_picture"
       />
 
-      <div className="content-text-testimonials">
+      <div className="content-testimonials-text">
         <p className="testimonial-name">Emma Bostian from Dubai</p>
         <p className="testimonial-position">Software engineer at spotify</p>
         <p className="testimonial-text">
