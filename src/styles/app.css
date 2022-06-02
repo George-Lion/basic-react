@@ -1,0 +1,36 @@
+*{ /* selector universal */ /* los navegadores utilizan un margin y un padding por defecto por eso lo modificamos */
+     margin: 0; 
+     padding: 0;
+}
+
+html, body{
+     font-size: 18px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: #f5f6f7;
+}
+
+h1{
+     max-width: 940px; /* ancho máximo del contenedor */
+     font-size: 2.5em; /* em es un valor relativo al tamaño del div en el que se encuentra */
+     font-family: Lato, sans-serif; /* tipo de letra */
+     font-weight: 700; /* grosor de la letra */
+     line-height:1.1; /* altura de las lineas */
+     margin: 40px 0; /* 40px representa el margen superior e inferior y 0 el de derecha e izquierda */
+}
+
+.App {
+     min-height: 100vh; /* altura mínima */
+     display: flex; /* define como se van a ubicar los elementos dentro del contenedor */
+     flex-wrap: wrap; /* si un elemento toma todo el ancho del contenedor, los otros elementos se ubican debajo de este. */
+     align-items: center; /* alinea los elementos verticalmente */
+     justify-content:center; /* alinea los elementos horizontalmente */
+     text-align: center; /* alinea el texto al centro */
+}
+
+.testimonial-content{
+     min-height: 600px; /* altura mínima del contenedor */
+     display: flex; /* define como se van a ubicar los elementos dentro del contenedor */
+     flex-wrap: wrap; /* si un elemento toma todo el ancho del contenedor, los otros elementos se ubican debajo de este. */
+     align-items: center; /* alinea los elementos verticalmente */
+     justify-content:center; /* alinea los elementos horizontalmente */
+}
